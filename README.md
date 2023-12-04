@@ -3,6 +3,10 @@
 
 File HomeController.cshtml Trong thư mục controller
 
+file site.css trong thư mục wwwwroot/css
+
+file site.js trong thư mục wwwwwroot/js
+
 File _Layout.cshtml Trong thư mục Views/Share
 
 Các file còn lại trong thư mục Views/Home
