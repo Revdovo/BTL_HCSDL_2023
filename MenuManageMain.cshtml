@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html class="login-pf">
+<head>
+    <title>Main</title>
+    <link rel="stylesheet" href="../style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="overflow-y: auto; height: 100%; background-color: mediumspringgreen">
+    <div class="dropdown">
+        <!-- Dropdown button -->
+        <button class="dropdown-btn">Menu</button>
+
+        <!-- Dropdown content -->
+        <div class="dropdown-content">
+            <a href="">Quảng lý Pizza</a>
+            <a asp-area="" asp-controller="Home" asp-action="MenuManageDrink">Quản lý Món Nước</a>
+            <a asp-area="" asp-controller="Home" asp-action="MenuManageDesert">Quản lý Tráng Miệng</a>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="form-title">Quản lý Pizza</div>
+
+        <form id="pizzaForm">
+            <div class="form-grid">
+                <input type="text" class="form-input" placeholder="ID">
+                <input type="text" class="form-input" placeholder="Tên">
+                <input type="text" class="form-input" placeholder="Giá cho 7 inch">
+            </div>
+
+            <div class="size-option">
+                <label for="pizzaSize">Size:</label>
+                <div class="size-buttons">
+                    <button type="button" value="7">7 inch</button>
+                    <button type="button" value="9">9 inch</button>
+                    <button type="button" value="12">12 inch</button>
+                </div>
+            </div>
+
+            <div class="form-buttons">
+                <button type="button" class="add">Add</button>
+                <button type="button" class="delete">Delete</button>
+                <button type="button" class="rewrite">Rewrite</button>
+            </div>
+
+            <div class="box">
+                <div class="inner-box">
+
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+
+</html>
