@@ -1,5 +1,7 @@
 # BTL_HCSDL_2023
 
+![image](https://github.com/Revdovo/BTL_HCSDL_2023/assets/63352181/61cc0a3c-f956-4fe4-a3f8-7961e345f722)
+
 
 Tên tên project là BTL_HCSDL
 
