@@ -1,6 +1,8 @@
 # BTL_HCSDL_2023
 
 
+Tên tên project là BTL_HCSDL
+
 File HomeController.cshtml Trong thư mục controller
 
 file site.css trong thư mục wwwwroot/css
