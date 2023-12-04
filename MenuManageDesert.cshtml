@@ -9,50 +9,6 @@
     <link rel="stylesheet" href="../style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
-        /* Style for the dropdown button */
-        .dropdown-btn {
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-            width: 200px; /* Adjust the width as needed */
-        }
-
-        /* Style for the dropdown content */
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-            min-width: 120px; /* Adjust the width as needed */
-        }
-
-            /* Style for the dropdown items */
-            .dropdown-content a {
-                padding: 12px 16px;
-                display: block;
-                text-decoration: none;
-                color: #333;
-            }
-
-                /* Change color on hover */
-                .dropdown-content a:hover {
-                    background-color: #ddd;
-                }
-
-        /* Show the dropdown content when the dropdown button is clicked */
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
-    </style>
 </head>
 <body style="overflow-y: auto; height: 100%; background-color: mediumspringgreen">
     <div class="dropdown">
@@ -84,6 +40,41 @@
 
             <div class="box">
                 <div class="inner-box">
+                    <table class="inner-table">
+                        <thead>
+                            <tr>
+                                <th>Mã Món</th>
+                                <th>Topping</th>
+                                <th>Giá</th>
+                                <th>Tùy chọn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Row 1, Cell 1</td>
+                                <td>Row 1, Cell 2</td>
+                                <td>Row 1, Cell 3 </td>
+                                <td style="width: 15%">
+                                    <div class="form-buttons">
+                                        <button type="button" class="delete">Delete</button>
+                                        <button type="button" class="rewrite">Edit</button>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Row 1, Cell 1</td>
+                                <td>Row 1, Cell 2</td>
+                                <td>Row 1, Cell 3 </td>
+                                <td style="width: 15%">
+                                    <div class="form-buttons">
+                                        <button type="button" class="delete">Delete</button>
+                                        <button type="button" class="rewrite">Edit</button>
+                                    </div>
+                                </td>
+                            </tr>d>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </form>

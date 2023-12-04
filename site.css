@@ -100,6 +100,7 @@ body {
 }
 
     .form-buttons button {
+        width: 100px;
         padding: 10px;
         cursor: pointer;
     }
@@ -161,4 +162,23 @@ body {
     border: solid;
     top: 10%;
     left: 10%;
+    overflow: auto;
 }
+
+.inner-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .inner-table th, .inner-table td {
+        border: 1px solid #000000;
+        padding: 10px;
+        text-align: center;
+        width: auto; /* Set the width of each column */
+    }
+
+    .inner-table .nested-cell {
+        border: 1px solid #000000;
+        padding: 0;
+        width: auto; /* Set the width of each nested cell */
+    }
